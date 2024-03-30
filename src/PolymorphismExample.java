@@ -1,10 +1,3 @@
-class Animal{
-    public void makeSound(){
-        String name;
-        System.out.println("Make a generic sound!");
-    }
-}
-
 class Dog extends Animal{
     String name;
     @java.lang.Override
@@ -29,5 +22,8 @@ public class PolymorphismExample {
         Bat c1 = new Bat();
         c1.name = "cc";
         c1.makeSound();
+
+        System.out.println(mydog.name);
+        System.out.println(c1.name);
     }
 }
